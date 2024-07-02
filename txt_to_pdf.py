@@ -30,5 +30,5 @@ for filepath in filepaths:
 	pdf.set_font(family="Times", size=12)
 	pdf.multi_cell(w=0, h=6, txt=content)
 
-# creat 1 single PDF output from multiple txt file (Out-side loop)
+# create 1 single PDF output from multiple txt file (outside loop)
 pdf.output("PDFs/txt_to_pdf.pdf")

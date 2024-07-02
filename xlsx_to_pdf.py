@@ -76,6 +76,6 @@ for filepath in filepaths:
 	# add company name & image for each invoice pdf
 	pdf.set_font(family="Times", size=12, style="IB")
 	pdf.cell(w=31, h=9, txt=f"Company Name")
-	pdf.image("app5-image.png", w=8)
+	pdf.image("app4-image.png", w=8)
 
 	pdf.output(f"PDFs/{filename}.pdf")
